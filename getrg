@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><PARAMVALUE NAME="CLASSIC CLI" TYPE="string"><VALUE><PARAMVALUE NAME="RaidGroup ID" TYPE="uint64"><VALUE>8</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup Type" TYPE="string"><VALUE>r6</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup State" TYPE="string"><VALUE>Explicit_Remove&#10;                                           Valid_luns</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of disks" TYPE="string"><VALUE>Bus 0 Enclosure 0  Disk 12&#10;                                           Bus 0 Enclosure 0  Disk 13&#10;                                           Bus 1 Enclosure 0  Disk 0&#10;                                           Bus 1 Enclosure 0  Disk 1&#10;                                           Bus 1 Enclosure 0  Disk 2&#10;                                           Bus 1 Enclosure 0  Disk 3&#10;                                           Bus 1 Enclosure 0  Disk 4&#10;                                           Bus 1 Enclosure 0  Disk 5</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of luns" TYPE="string"><VALUE>16 17 </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of disks" TYPE="uint64"><VALUE>16</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of luns" TYPE="uint64"><VALUE>256</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Raw Capacity (Blocks)" TYPE="uint64"><VALUE>30744870912</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logical Capacity (Blocks)" TYPE="uint64"><VALUE>23058653184</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free Capacity (Blocks,non-contiguous)" TYPE="uint64"><VALUE>159744</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free contiguous group of unbound segments" TYPE="uint64"><VALUE>159744</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Defrag/Expand priority" TYPE="string"><VALUE>Medium</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent defragmented" TYPE="uint64"><VALUE>100</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent expanded" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Disk expanding onto" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Lun Expansion enabled" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Legal RAID types" TYPE="string"><VALUE>r6 </VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="RaidGroup ID" TYPE="uint64"><VALUE>9</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup Type" TYPE="string"><VALUE>r6</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup State" TYPE="string"><VALUE>Explicit_Remove&#10;                                           Valid_luns</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of disks" TYPE="string"><VALUE>Bus 0 Enclosure 0  Disk 0&#10;                                           Bus 0 Enclosure 0  Disk 1&#10;                                           Bus 0 Enclosure 0  Disk 2&#10;                                           Bus 0 Enclosure 0  Disk 3&#10;                                           Bus 0 Enclosure 1  Disk 15&#10;                                           Bus 0 Enclosure 1  Disk 16&#10;                                           Bus 0 Enclosure 1  Disk 17&#10;                                           Bus 0 Enclosure 1  Disk 18</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of luns" TYPE="string"><VALUE>18 19 </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of disks" TYPE="uint64"><VALUE>16</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of luns" TYPE="uint64"><VALUE>256</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Raw Capacity (Blocks)" TYPE="uint64"><VALUE>1405108224</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logical Capacity (Blocks)" TYPE="uint64"><VALUE>1053831168</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free Capacity (Blocks,non-contiguous)" TYPE="uint64"><VALUE>159744</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free contiguous group of unbound segments" TYPE="uint64"><VALUE>159744</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Defrag/Expand priority" TYPE="string"><VALUE>Medium</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent defragmented" TYPE="uint64"><VALUE>100</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent expanded" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Disk expanding onto" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Lun Expansion enabled" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Legal RAID types" TYPE="string"><VALUE>r6 </VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="RaidGroup ID" TYPE="uint64"><VALUE>246</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup Type" TYPE="string"><VALUE>hot_spare</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup State" TYPE="string"><VALUE>Explicit_Remove&#10;                                           Valid_luns</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of disks" TYPE="string"><VALUE>Bus 0 Enclosure 1  Disk 19</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of luns" TYPE="string"><VALUE>8179 </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of disks" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of luns" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Raw Capacity (Blocks)" TYPE="uint64"><VALUE>558854144</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logical Capacity (Blocks)" TYPE="uint64"><VALUE>558854144</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free Capacity (Blocks,non-contiguous)" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free contiguous group of unbound segments" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Defrag/Expand priority" TYPE="string"><VALUE>Medium</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent defragmented" TYPE="uint64"><VALUE>100</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent expanded" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Disk expanding onto" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Lun Expansion enabled" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Legal RAID types" TYPE="string"><VALUE>hot_spare </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Hot Spare Replacing RAID Group" TYPE="string"><VALUE>Inactive</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="RaidGroup ID" TYPE="uint64"><VALUE>247</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup Type" TYPE="string"><VALUE>hot_spare</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup State" TYPE="string"><VALUE>Explicit_Remove&#10;                                           Valid_luns</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of disks" TYPE="string"><VALUE>Bus 0 Enclosure 0  Disk 14</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of luns" TYPE="string"><VALUE>8180 </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of disks" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of luns" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Raw Capacity (Blocks)" TYPE="uint64"><VALUE>3841669120</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logical Capacity (Blocks)" TYPE="uint64"><VALUE>3841669120</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free Capacity (Blocks,non-contiguous)" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free contiguous group of unbound segments" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Defrag/Expand priority" TYPE="string"><VALUE>Medium</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent defragmented" TYPE="uint64"><VALUE>100</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent expanded" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Disk expanding onto" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Lun Expansion enabled" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Legal RAID types" TYPE="string"><VALUE>hot_spare </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Hot Spare Replacing RAID Group" TYPE="string"><VALUE>Inactive</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="RaidGroup ID" TYPE="uint64"><VALUE>248</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup Type" TYPE="string"><VALUE>hot_spare</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="RaidGroup State" TYPE="string"><VALUE>Explicit_Remove&#10;                                           Valid_luns</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of disks" TYPE="string"><VALUE>Bus 0 Enclosure 0  Disk 4</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="List of luns" TYPE="string"><VALUE>8181 </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of disks" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Max Number of luns" TYPE="uint64"><VALUE>1</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Raw Capacity (Blocks)" TYPE="uint64"><VALUE>188471296</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Logical Capacity (Blocks)" TYPE="uint64"><VALUE>188471296</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free Capacity (Blocks,non-contiguous)" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free contiguous group of unbound segments" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Defrag/Expand priority" TYPE="string"><VALUE>Medium</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent defragmented" TYPE="uint64"><VALUE>100</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Percent expanded" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Disk expanding onto" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Lun Expansion enabled" TYPE="string"><VALUE>NO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Legal RAID types" TYPE="string"><VALUE>hot_spare </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Hot Spare Replacing RAID Group" TYPE="string"><VALUE>Inactive</VALUE>
+</PARAMVALUE>
+
+
+</VALUE></PARAMVALUE><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>CLIProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>success</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>
+

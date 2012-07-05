@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><PARAMVALUE NAME="CLASSIC CLI" TYPE="string"><VALUE><PARAMVALUE NAME="SP Read Cache State                 " TYPE="string"><VALUE>Enabled</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP Write Cache State                " TYPE="string"><VALUE>Enabled</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Cache Page size" TYPE="uint64"><VALUE>8</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Write Cache Mirrored" TYPE="string"><VALUE>YES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Low Watermark" TYPE="uint64"><VALUE>70</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="High Watermark" TYPE="uint64"><VALUE>90</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Cache pages" TYPE="uint64"><VALUE>282047</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Cache pages" TYPE="uint64"><VALUE>282048</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Unassigned Cache Pages" TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Read Hit Ratio" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Write Hit Ratio" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Prct Dirty Cache Pages =            " TYPE="uint64"><VALUE>7</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Prct Cache Pages Owned =            " TYPE="uint64"><VALUE>49</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Read Cache State                " TYPE="string"><VALUE>Enabled</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Read Cache State                " TYPE="string"><VALUE>Enabled</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Write Cache State               " TYPE="string"><VALUE>Enabled</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Write Cache State               " TYPE="string"><VALUE>Enabled</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="System Buffer (spA)" TYPE="string"><VALUE>7127 MB</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="System Buffer (spB)" TYPE="string"><VALUE>7127 MB</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPS Test Day" TYPE="string"><VALUE>Saturday</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPS Test Time" TYPE="string"><VALUE>18:00</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Physical Memory Size =          " TYPE="uint64"><VALUE>12288</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Physical Memory Size =          " TYPE="uint64"><VALUE>12288</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Physical memory size of Front-End = " TYPE="string"><VALUE>Switch not supported</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Physical memory size of Back-End =  " TYPE="string"><VALUE>Switch not supported</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Free Memory Size =              " TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Free Memory Size =              " TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free Memory Size of Front-End =     " TYPE="string"><VALUE>Switch not supported</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Free Memory Size of Back-End =      " TYPE="string"><VALUE>Switch not supported</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Read Cache Size =               " TYPE="uint64"><VALUE>610</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Read Cache Size =               " TYPE="uint64"><VALUE>610</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Write Cache Size =              " TYPE="uint64"><VALUE>4551</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Write Cache Size =              " TYPE="uint64"><VALUE>4551</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPA Optimized Raid 3 Memory Size =  " TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SPB Optimized Raid 3 Memory Size =  " TYPE="uint64"><VALUE>0</VALUE>
+</PARAMVALUE>
+
+</VALUE></PARAMVALUE><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>CLIProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>success</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>
+

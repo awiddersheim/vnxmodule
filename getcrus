@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><PARAMVALUE NAME="CLASSIC CLI" TYPE="string"><VALUE><PARAMVALUE NAME="DPE7 " TYPE="string"><VALUE>Bus 0 Enclosure 0       </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP A State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="SP B State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 0 Power A State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 0 Power B State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 0 SPS A State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 0 SPS B State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 0 SPS A Cabling State" TYPE="string"><VALUE>Valid</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 0 SPS B Cabling State" TYPE="string"><VALUE>Valid</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="DAE5S " TYPE="string"><VALUE>Bus 0 Enclosure 1       </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 Power A State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 Power B State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 LCC A State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 LCC B State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 LCC A Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 LCC B Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 LCC A Serial #" TYPE="string"><VALUE>US1D0111501397</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 0 Enclosure 1 LCC B Serial #" TYPE="string"><VALUE>US1D0111502244</VALUE>
+</PARAMVALUE>
+
+
+<PARAMVALUE NAME="DAE6S " TYPE="string"><VALUE>Bus 1 Enclosure 0       </VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 Power A State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 Power B State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 LCC A State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 LCC B State" TYPE="string"><VALUE>Present</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 LCC A Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 LCC B Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 LCC A Serial #" TYPE="string"><VALUE>US1V2111901731</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="Bus 1 Enclosure 0 LCC B Serial #" TYPE="string"><VALUE>US1V2111902337</VALUE>
+</PARAMVALUE>
+
+</VALUE></PARAMVALUE><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>CLIProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>success</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>
+

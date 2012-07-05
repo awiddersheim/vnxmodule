@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIM CIMVERSION="2.0" DTDVERSION="2.0"><MESSAGE ID="877" PROTOCOLVERSION="1.0"><SIMPLERSP><METHODRESPONSE NAME="ExecuteClientRequest"><PARAMVALUE NAME="CLASSIC CLI" TYPE="string"><VALUE>
+
+<PARAMVALUE NAME="  " TYPE="string"><VALUE>SP B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>110-140-102B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>B08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>FCNSS112300221</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>SENTRYSP 2.13GHZ QC CPU</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>BIOS:POST:MCU:MCU BB:PLX8608:CMDAPP:CMDTABLE:CMDBOOT:FWBL:CDES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>6.12:39.50:5.10:1.10:3.04:5.04:0.96:0.02:72.70:1.21</VALUE>
+</PARAMVALUE>
+
+
+
+<PARAMVALUE NAME="  " TYPE="string"><VALUE>SP A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>110-140-102B</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>B08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>FCNSS112300265</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>SENTRYSP 2.13GHZ QC CPU</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>BIOS:POST:MCU:MCU BB:PLX8608:CMDAPP:CMDTABLE:CMDBOOT:FWBL:CDES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>6.12:39.50:5.10:1.10:3.04:5.04:0.96:0.02:72.70:1.21</VALUE>
+</PARAMVALUE>
+
+
+
+
+Bus 0 Enclosure 0
+  Chassis/Midplane 
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>100-562-503</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A06</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>FCNCH111800071</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>SENTRY DUAL SP 12GB 2.13G GLR AO</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+
+
+
+Bus 0 Enclosure 0
+  Power A
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>071-000-529</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>04I</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A09</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>AC178111300655</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>SG7011-710G</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>04I</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>A09</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>AC1111300655</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>ACBEL POLYTECH INC.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>MANILA, PHILIPPINES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>04</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>12</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>DUAL 12V P/S WITHOUT FAN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>PS FW</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>0.27</VALUE>
+</PARAMVALUE>
+
+
+
+
+Bus 0 Enclosure 0
+  Power B
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>071-000-529</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>04I</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A09</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>AC178111800096</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>SG7011-710G</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>04I</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>A09</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>AC1111800096</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>ACBEL POLYTECH INC.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>MANILA, PHILIPPINES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>DUAL 12V P/S WITHOUT FAN</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>PS FW</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>0.27</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 0 Enclosure 1
+  Chassis/Midplane 
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>100-562-712</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>US1D1111700028</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>USI</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>Shanghai, China</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>25 DRIVE 6G SAS DERRINGER DAE</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 0 Enclosure 1
+  LCC A 
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>303-104-000E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>E12</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>US1D0111501397</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>USI</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>Shanghai,China</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>25 DRIVE 6G SAS LCC FRU</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>CDES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 0 Enclosure 1
+  LCC B 
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>303-104-000E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>E12</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>US1D0111502244</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>USI</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>Shanghai,China</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>25 DRIVE 6G SAS LCC FRU</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>CDES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 0 Enclosure 1
+  Power A
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>071-000-541</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>010</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>AC7B0111205366</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>SG9006-710G</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>010</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>A10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>AC7111209374</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>ACBEL POLYTECH INC.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>TANG XIA TOWN, DONG GUAN, CHINA</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>03</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>29</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>Dual +12V P/S &amp; Cooling Module.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>1sa</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>5.33</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 0 Enclosure 1
+  Power B
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>071-000-541</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>010</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>AC7B0111205363</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>SG9006-710G</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>010</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>A10</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>AC7111209389</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>ACBEL POLYTECH INC.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>TANG XIA TOWN, DONG GUAN, CHINA</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>03</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>29</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>Dual +12V P/S &amp; Cooling Module.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>1sa</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>5.33</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 1 Enclosure 0
+  Chassis/Midplane 
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>100-562-904</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>US1V4112010387</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>6G SAS LF DAE VIPER W/FLANGES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 1 Enclosure 0
+  LCC A 
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>303-108-000E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>E11</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>US1V2111901731</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>USI</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>Shanghai,China</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>23</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>15 DRIVE VIPER 6G SAS LCC FRU</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>CDES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 1 Enclosure 0
+  LCC B 
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>303-108-000E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>E</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>E11</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>US1V2111902337</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>N/A</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>USI</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>Shanghai,China</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>05</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>22</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>15 DRIVE VIPER 6G SAS LCC FRU</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>CDES</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>1.21</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 1 Enclosure 0
+  Power A
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>071-000-518</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>012</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>AC794111007171</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>SG7008-710G</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>012</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>A08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>AC7111000573</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>ACBEL POLYTECH INC.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>TANG XIA TOWN, DONG GUAN, CHINA</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>03</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>14</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>Third Gen 400W, Dual +12V P/S</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>Micro</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>5.17</VALUE>
+</PARAMVALUE>
+
+
+
+Bus 1 Enclosure 0
+  Power B
+<PARAMVALUE NAME="    EMC Part Number" TYPE="string"><VALUE>071-000-518</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Artwork Revision" TYPE="string"><VALUE>012</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Assembly Revision" TYPE="string"><VALUE>A08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    EMC Serial Number" TYPE="string"><VALUE>AC794111007135</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Part Number" TYPE="string"><VALUE>SG7008-710G</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Artwork Number" TYPE="string"><VALUE>012</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Assembly Number" TYPE="string"><VALUE>A08</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Serial Number" TYPE="string"><VALUE>AC7111006930</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Vendor Name" TYPE="string"><VALUE>ACBEL POLYTECH INC.</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Location of Manufacture" TYPE="string"><VALUE>TANG XIA TOWN, DONG GUAN, CHINA</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Year of Manufacture" TYPE="string"><VALUE>2011</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Month of Manufacture" TYPE="string"><VALUE>03</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Day of Manufacture" TYPE="string"><VALUE>14</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Assembly Name" TYPE="string"><VALUE>Third Gen 400W, Dual +12V P/S</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Name" TYPE="string"><VALUE>Micro</VALUE>
+</PARAMVALUE>
+
+<PARAMVALUE NAME="    Programmable Revision" TYPE="string"><VALUE>5.17</VALUE>
+</PARAMVALUE>
+
+
+
+</VALUE></PARAMVALUE><RETURNVALUE TYPE="Navi_Error">
+<VALUE.NAMEDINSTANCE>
+<INSTANCENAME CLASSNAME="Navi_Error">
+</INSTANCENAME>
+<INSTANCE CLASSNAME="Navi_Error">
+<PROPERTY NAME="errorCode" TYPE="uint32"><VALUE>0</VALUE>
+</PROPERTY>
+<PROPERTY NAME="success" TYPE="boolean"><VALUE>true</VALUE>
+</PROPERTY>
+<PROPERTY NAME="where" TYPE="string"><VALUE>CLIProvider</VALUE>
+</PROPERTY>
+<PROPERTY NAME="why" TYPE="string"><VALUE>success</VALUE>
+</PROPERTY>
+</INSTANCE>
+</VALUE.NAMEDINSTANCE>
+</RETURNVALUE></METHODRESPONSE></SIMPLERSP></MESSAGE></CIM>
+
