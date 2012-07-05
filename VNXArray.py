@@ -5,7 +5,6 @@ __author__ = 'mcowger'
 from pyxml2obj import XMLin,XMLout
 import subprocess
 import pprint
-import logging
 
 class VNXObject:
     def __str__(self):
@@ -91,7 +90,6 @@ class RaidGroup(VNXObject):
     freeCapacityBlocks = 0
     lunExpansionEnabled = False
     legalRaidTypes = ""
-    disks = []
 class VNXArray(VNXObject):
     controllerPair = None
     luns = None
@@ -101,7 +99,6 @@ class VNXArray(VNXObject):
 
     def setExePath(self,path):
         exePath = path
-        self.logger.info("Setting exePath to " + exePath)
     def _getSPs(self):
         SPA = ServiceProcessor()
         SPB = ServiceProcessor()
@@ -160,19 +157,14 @@ class VNXArray(VNXObject):
 
         return controller
     def _getLiveData(self,command):
-        self.logger.info("Entering getLiveData: " + command)
         navisecclipath = self.exePath
         rawcmd = [navisecclipath,"-User", self.arrayUser ,"-Password",self.arrayPass,"-scope",str(self.arrayScope), "-Xml", "-h",self.arrayIp,command]
         xml =  subprocess.Popen(rawcmd, stdout=subprocess.PIPE, shell=False).stdout.read()
-        self.logger.info("Exiting getLiveData")
         return XMLin(xml)
     def _getStoredData(self,command):
-        self.logger.info("Entering getStoredData")
         handle = open(command,'r')
-        self.logger.info("Exiting getStoredData")
         return XMLin("".join(handle.readlines()))
     def _getArrayData(self,datakey):
-        self.logger.info("Entering getArrayData: " + datakey)
         acceptablekeys = ["getagent","getcontrol","getlun","getsptime","getcrus","getunusedluns","getarrayuid","getdisk","getrg","getcache","getlog","getsp"]
         if (datakey in acceptablekeys):
             if (self.live):
@@ -182,7 +174,6 @@ class VNXArray(VNXObject):
         else:
             raise Exception('Gack - thats not an acceptable command:' + datakey + '  Acceptable commands are: ' + " ".join(acceptablekeys))
     def _getLUNs(self):
-        self.logger.info("Entering getLUNs")
         xmltree = self._getArrayData("getlun")
         baselevel = xmltree['MESSAGE']['SIMPLERSP']['METHODRESPONSE']['PARAMVALUE']['VALUE']['PARAMVALUE']
         currentLUN = None
@@ -194,7 +185,6 @@ class VNXArray(VNXObject):
                 if currentLUN != None: allLUNs.append(currentLUN);
                 currentLUN = LUN()
                 currentLUN.number = line['VALUE']
-                self.logger.info("Parsing LUN" + currentLUN.number)
             elif line['NAME'] == "Name": currentLUN.Name = line['VALUE'];
             elif line['NAME'] == "RAID Type": currentLUN.RAIDType = line['VALUE'];
             elif line['NAME'] == "RAIDGroup ID": currentLUN.raidGroupID = line['VALUE'];
@@ -215,10 +205,8 @@ class VNXArray(VNXObject):
             elif line['NAME'] == "UID": currentLUN.uid = line['VALUE'];
             elif line['NAME'] == "Is Private": currentLUN.private = bool(line['VALUE']);
             else: pass
-        self.logger.info("Exiting getLUNs")
         return allLUNs
     def _getDisks(self):
-        self.logger.info("Entering getDisks")
         currentDisk = None
         allDisks = []
         xmltree = self._getArrayData("getdisk")
@@ -229,7 +217,6 @@ class VNXArray(VNXObject):
                 if currentDisk != None: allDisks.append(currentDisk);
                 currentDisk = Disk()
                 currentDisk.ID = line['NAME']
-                self.logger.info("Parsing disk: " + currentDisk.ID)
             elif line['NAME'] == "Vendor Id": currentDisk.vendorId = line['VALUE'];
             elif line['NAME'] == "Product Id": currentDisk.productId = line['VALUE'];
             elif line['NAME'] == "Product Revision": currentDisk.productRevision = line['VALUE'];
@@ -242,20 +229,14 @@ class VNXArray(VNXObject):
             elif line['NAME'] == "Number of Reads": currentDisk.numReads = line['VALUE'];
             elif line['NAME'] == "Number of Writes": currentDisk.numWrites = line['VALUE'];
             elif line['NAME'] == "Number of Luns": currentDisk.numLuns = line['VALUE'];
-            elif line['NAME'] == "Raid Group ID":
-                try:
-                    currentDisk.raidGroupId = int(line['VALUE'])
-                except ValueError:
-                    currentDisk.raidGroupId = -1
+            elif line['NAME'] == "Raid Group ID": currentDisk.raidGroupId = line['VALUE'];
             elif line['NAME'] == "Drive Type": currentDisk.driveType = line['VALUE'];
             elif line['NAME'] == "Current Speed": currentDisk.currentSpeed = line['VALUE'];
             elif line['NAME'] == "Maximum Speed": currentDisk.maximumSpeed = line['VALUE'];
             elif line['NAME'] == "User Capacity": currentDisk.userCapacity = line['VALUE'];
             else: pass
-        self.logger.info("Exiting getDisks")
         return allDisks
     def _getRaidGroups(self):
-        self.logger.info("Entering getRGs")
         xmltree = self._getArrayData("getrg")
         baselevel = xmltree['MESSAGE']['SIMPLERSP']['METHODRESPONSE']['PARAMVALUE']['VALUE']['PARAMVALUE']
         currentRG = None
@@ -265,7 +246,6 @@ class VNXArray(VNXObject):
                 if currentRG != None: allRGs.append(currentRG);
                 currentRG = RaidGroup()
                 currentRG.ID = int(line['VALUE'])
-                self.logger.info("Parsing RG: " + str(currentRG.ID))
             elif line['NAME'] == "List of luns": currentRG.luns = line['VALUE'];
             elif line['NAME'] == "Max Number of disks": currentRG.maxDisks = line['VALUE'];
             elif line['NAME'] == "Max Number of luns": currentRG.maxLuns = line['VALUE'];
@@ -281,35 +261,16 @@ class VNXArray(VNXObject):
         disks = None
         rgs = None
         live = False
-    def _correlateDisksToRGs(self):
-        self.logger.info("Correlating Disks to RGs")
-        for disk in self.disks:
-            for rg in self.rgs:
-                self.logger.info("Attempting matching for disk: " + disk.ID + " RG: " + str(disk.raidGroupId) + " and RG: " + str(rg.ID))
-                if rg.ID == disk.raidGroupId:
-                    rg.disks.append(disk.ID)
-                    self.logger.info("Matched disk " + str(disk.ID) + " to RG " + str(rg.ID))
-
-
     def __init__(self,arrayIp,arrayUser,arrayPass,arrayScope=0,live=True):
-        logging.basicConfig(format='%(asctime)-6s: %(name)s - %(levelname)s - %(message)s')
-        self.logger = logging.getLogger(__name__)
-        self.logger.setLevel(logging.INFO)
-        self.logger.info("Entering VNXArray")
         self.arrayIp = arrayIp
         self.arrayUser = arrayUser
         self.arrayPass = arrayPass
         self.arrayScope = arrayScope
         self.live = live
-        if self.rgs == None: self.rgs = self._getRaidGroups();
         if self.controllerPair == None: self.controllerPair = self._getControllers();
         if self.luns == None: self.luns = self._getLUNs();
         if self.disks == None: self.disks = self._getDisks();
-
-        self._correlateDisksToRGs();
-
-        self.logger.info("Finished with Init")
-
+        if self.rgs == None: self.rgs = self._getRaidGroups();
 
 
 
